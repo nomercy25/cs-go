@@ -1,0 +1,264 @@
+/* обнуление */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+}
+/* ---------------------- */
+
+.header__wrapper {
+   background: url(../img/header__bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   max-width: 100%;
+   min-height: 100%;
+}
+
+.header__container {
+   max-width: 1162px;
+   margin: 0 auto;
+   padding-top: 60px;
+   font-family: 'Montserrat';
+}
+
+.header__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__navbar {
+   display: flex;
+   font-size: 12px;
+}
+
+a.last {
+   margin-right: 39px;
+}
+a.navbar__item {
+   text-decoration: none;
+   color: #fff;
+}
+
+.header__heading {
+   margin-top: 192px;
+   font-size: 60px;
+   font-weight: 900;
+   line-height: 73px;
+   color: #fff;
+}
+
+.header__subheading {
+   margin-top: 26px;
+   color: #fff;
+   line-height: 17px;
+   font-size: 14px;
+}
+
+.header__btn a {
+   margin-top: 141px;
+   background: #DE5D00;
+   width: 280px;
+   height: 50px;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 600;
+}
+
+.sign__in__wrapper {
+   background: #1e1e1e url(../img/sign__in__bg.png) no-repeat;
+   background-position: 220px 20px;
+   max-height: 890px;
+   padding-bottom: 136px;
+   width: 100%;
+}
+
+.sign__in__container {
+   max-width: 1162px;
+   margin: 0 auto;
+   padding-top: 60px;
+   font-family: 'Montserrat';
+}
+
+.sign__in__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sign__in__item {
+   text-decoration: none;
+   color: #fff;
+}
+
+a.sign__in__item:focus {
+   border-bottom: 2px solid #9FAFFF;
+}
+
+a.last:focus {
+   border-bottom: 2px solid #9FAFFF;
+}
+
+.sign__in__form__container {
+   max-width: 1000px;
+   margin: 0 auto;
+   margin-top: 130px;
+}
+
+.sign__in__form__row {
+   display: flex;
+   justify-content: end;
+}
+
+.sign__in__form__column {
+   display: flex;
+   flex-direction: column;
+}
+
+.sign__in__form__heading {
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 59px;
+   color: #fff;
+}
+
+.sign__in__form__subheading {
+   margin-top: 61px;
+   color: #fff;
+   font-size: 16px;
+   line-height: 19px;
+}
+
+.sign__in__here a {
+   color: #4461F2;
+   font-weight: 600;
+}
+
+.sign__in__forms {
+   margin-top: 57px;
+   display: flex;
+   flex-direction: column;
+}
+
+input.form1{
+   width: 370px;
+   height: 47px;
+   background: none;
+   border: 1px solid #fff;
+   border-radius: 7.6px;
+   padding: 0 30px;
+   color: #fff;
+}
+
+input.form2,input.form2__sign__up,input.form3,input.form4 {
+   margin-top: 15px;
+   width: 370px;
+   height: 47px;
+   background: none;
+   border: 1px solid #fff;
+   border-radius: 7.6px;
+   padding: 0 30px;
+   color: #fff;
+}
+
+
+input:focus {
+   outline: none;
+}
+
+input.form1::placeholder,input.form2__sign__up::placeholder,.form3::placeholder, input.form4::placeholder {
+   background: url(../img/X\ Icon.svg) no-repeat; 
+   background-position: 292px;
+   color: #fff;
+}
+input.form2::placeholder {
+   background: url(../img/eye.svg) no-repeat; 
+   background-position: 290px;
+   color: #fff;
+}
+
+.sign__in__remembers {
+   margin-top: 11px;
+   display: flex;
+   justify-content: end;
+}
+.sign__in__remembers a {
+   color: #c7c7c7;
+   font-size: 11px;
+   text-decoration: none;
+}
+ 
+.sign__in__form__btn {
+   margin-top: 23px;
+   color: #fff;
+   width: 370px;
+   height: 50px;
+   background: #DE5D00;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.sign__up__wrapper {
+   background: #1e1e1e url(../img/sign__up__bg.png) no-repeat;
+   background-position: 220px 20px;
+   max-height: 890px;;
+   width: 100%;
+   padding-bottom: 136px;
+}
+
+
+@media screen and (max-width: 767px) {
+   .header__container {
+      padding: 30px 15px;
+   }
+   .header__heading {
+      font-size: 35px;
+   }
+   .sign__in__wrapper {
+      height: 850px;
+      padding-bottom: 0;
+   }
+   .sign__in__container {
+      padding: 30px 11px;
+   }
+   .sign__in__form__container {
+   }
+   .sign__in__form__row {
+      flex-direction: column;
+   }
+}
+   
