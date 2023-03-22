@@ -97,6 +97,54 @@ a.navbar__item {
    font-weight: 600;
 }
 
+/* main page */
+
+.main__wrapper {
+   background: #0D0E0F;
+}
+.main__container {
+   max-width: 1170px;
+   margin: 0 auto;
+   padding-top: 22px;
+}
+.main__form__row {
+   display: flex;
+   justify-content: space-between;
+}
+.main__form {
+   width: 1067px;
+   border-radius: 50px;
+}
+.main__form::placeholder {
+   padding-left: 40px;
+   background: url(../img/main__search__icon.svg);
+   background-repeat: no-repeat;
+   background-position: 0px;
+}
+
+input.main__form {
+   padding: 0 28px;
+}
+
+.main__navbar__area {
+   height: 288px;
+   width: 51px;
+   background:#1A1E1F;
+   border-radius: 31px;
+}
+
+.main__navbar {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 22px;
+}
+
+.main__navbar__item {
+   margin: 26px 0px 0px 0px;
+}
+
 .sign__in__wrapper {
    background: #1e1e1e url(../img/sign__in__bg.png) no-repeat;
    background-position: 220px 20px;
@@ -241,6 +289,21 @@ input.form2::placeholder {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 767px) {
    .header__container {
       padding: 30px 15px;
@@ -254,8 +317,6 @@ input.form2::placeholder {
    }
    .sign__in__container {
       padding: 30px 11px;
-   }
-   .sign__in__form__container {
    }
    .sign__in__form__row {
       flex-direction: column;
