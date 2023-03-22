@@ -35,291 +35,508 @@ body {
 /* ---------------------- */
 
 .header__wrapper {
-   background: url(../img/header__bg.png);
-   background-size: cover;
-   background-repeat: no-repeat;
-   max-width: 100%;
-   min-height: 100%;
+  background: url(../img/header__bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 100%;
 }
 
 .header__container {
-   max-width: 1162px;
-   margin: 0 auto;
-   padding-top: 60px;
-   font-family: 'Montserrat';
+  max-width: 1162px;
+  margin: 0 auto;
+  padding-top: 60px;
+  font-family: "Montserrat";
 }
 
 .header__row {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__navbar {
-   display: flex;
-   font-size: 12px;
+  display: flex;
+  font-size: 12px;
 }
 
 a.last {
-   margin-right: 39px;
+  margin-right: 39px;
 }
 a.navbar__item {
-   text-decoration: none;
-   color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .header__heading {
-   margin-top: 192px;
-   font-size: 60px;
-   font-weight: 900;
-   line-height: 73px;
-   color: #fff;
+  margin-top: 192px;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 73px;
+  color: #fff;
 }
 
 .header__subheading {
-   margin-top: 26px;
-   color: #fff;
-   line-height: 17px;
-   font-size: 14px;
+  margin-top: 26px;
+  color: #fff;
+  line-height: 17px;
+  font-size: 14px;
 }
 
 .header__btn a {
-   margin-top: 141px;
-   background: #DE5D00;
-   width: 280px;
-   height: 50px;
-   border-radius: 20px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: #fff;
-   font-size: 14px;
-   font-weight: 600;
+  margin-top: 141px;
+  background: #de5d00;
+  width: 280px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /* main page */
 
 .main__wrapper {
-   background: #0D0E0F;
+  background: #0d0e0f;
+  height: 870px;
 }
 .main__container {
-   max-width: 1170px;
-   margin: 0 auto;
-   padding-top: 22px;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 22px;
 }
 .main__form__row {
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .main__form {
-   width: 1067px;
-   border-radius: 50px;
+  width: 1067px;
+  border-radius: 50px;
 }
 .main__form::placeholder {
-   padding-left: 40px;
-   background: url(../img/main__search__icon.svg);
-   background-repeat: no-repeat;
-   background-position: 0px;
+  padding-left: 40px;
+  background: url(../img/main__search__icon.svg);
+  background-repeat: no-repeat;
+  background-position: 0px;
 }
 
 input.main__form {
-   padding: 0 28px;
+  padding: 0 28px;
+}
+
+.main__content__area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main__navbar__area {
-   height: 288px;
-   width: 51px;
-   background:#1A1E1F;
-   border-radius: 31px;
+  height: 288px;
+  width: 51px;
+  background: #1a1e1f;
+  border-radius: 31px;
 }
 
 .main__navbar {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 22px;
 }
 
 .main__navbar__item {
-   margin: 26px 0px 0px 0px;
+  margin: 26px 0px 0px 0px;
 }
 
-.sign__in__wrapper {
-   background: #1e1e1e url(../img/sign__in__bg.png) no-repeat;
-   background-position: 220px 20px;
-   max-height: 890px;
-   padding-bottom: 136px;
-   width: 100%;
+.main__content__banners {
+  display: flex;
+  margin-top: 22px;
+  font-family: "Montserrat";
+}
+.main__first__banner {
+  width: 652px;
+  height: 354px;
+  background: #3a4fb9 url(../img/main__first__banner__bg.png);
+  border-radius: 30px;
+}
+.main__first__banner__container {
+  padding: 39px 43px;
+}
+.main__first__banner__upheading {
+  font-size: 10px;
+  color: #fff;
 }
 
-.sign__in__container {
-   max-width: 1162px;
-   margin: 0 auto;
-   padding-top: 60px;
-   font-family: 'Montserrat';
+.main__first__banner__heading {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 120%;
 }
 
-.sign__in__row {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+.main__first__banner__subheading {
+  margin-top: 32px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 120%;
 }
 
-.sign__in__item {
-   text-decoration: none;
-   color: #fff;
+.main__first__banner__like__item {
+  margin-top: 74px;
+  display: flex;
+  color: #fff;
+}
+.main__first__banner__like__item::before {
+  content: url(../img/Heart__icon.svg);
+  margin-right: 8px;
 }
 
-a.sign__in__item:focus {
-   border-bottom: 2px solid #9FAFFF;
+.second__area {
+  height: 230px;
+}
+.second__bar {
+  margin-top: 53px;
 }
 
-a.last:focus {
-   border-bottom: 2px solid #9FAFFF;
+.second__item {
+  margin: 30px 0px 0px 0px;
 }
 
-.sign__in__form__container {
-   max-width: 1000px;
-   margin: 0 auto;
-   margin-top: 130px;
+.main__other__banner__container {
+  margin-left: 20px;
 }
 
-.sign__in__form__row {
-   display: flex;
-   justify-content: end;
+.main__other__banner__upheading {
+  color: #efeee0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.main__other__banner {
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 396px;
+  height: 91px;
+  background: #1a1e1f;
 }
 
-.sign__in__form__column {
-   display: flex;
-   flex-direction: column;
+.main__other__banner__content {
+  padding: 15px 15px;
+  display: flex;
 }
 
-.sign__in__form__heading {
-   font-size: 40px;
-   font-weight: 600;
-   line-height: 59px;
-   color: #fff;
+.main__other__banner__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.sign__in__form__subheading {
-   margin-top: 61px;
-   color: #fff;
-   font-size: 16px;
-   line-height: 19px;
+.main__other__banner__heading {
+  padding: 0px 15px;
+  color: #fff;
+  font-size: 14px;
 }
 
-.sign__in__here a {
-   color: #4461F2;
-   font-weight: 600;
+.main__other__banner__price {
+  padding: 15px 15px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
 }
 
-.sign__in__forms {
-   margin-top: 57px;
-   display: flex;
-   flex-direction: column;
+.main__other__banner__date {
+   padding: 0 15px;
+   font-size: 10px;
+   color: #fff;   
 }
 
-input.form1{
-   width: 370px;
-   height: 47px;
-   background: none;
-   border: 1px solid #fff;
-   border-radius: 7.6px;
-   padding: 0 30px;
-   color: #fff;
-}
-
-input.form2,input.form2__sign__up,input.form3,input.form4 {
-   margin-top: 15px;
-   width: 370px;
-   height: 47px;
-   background: none;
-   border: 1px solid #fff;
-   border-radius: 7.6px;
-   padding: 0 30px;
-   color: #fff;
-}
-
-
-input:focus {
-   outline: none;
-}
-
-input.form1::placeholder,input.form2__sign__up::placeholder,.form3::placeholder, input.form4::placeholder {
-   background: url(../img/X\ Icon.svg) no-repeat; 
-   background-position: 292px;
-   color: #fff;
-}
-input.form2::placeholder {
-   background: url(../img/eye.svg) no-repeat; 
-   background-position: 290px;
-   color: #fff;
-}
-
-.sign__in__remembers {
-   margin-top: 11px;
-   display: flex;
-   justify-content: end;
-}
-.sign__in__remembers a {
-   color: #c7c7c7;
-   font-size: 11px;
-   text-decoration: none;
-}
- 
-.sign__in__form__btn {
-   margin-top: 23px;
-   color: #fff;
-   width: 370px;
-   height: 50px;
-   background: #DE5D00;
-   border-radius: 20px;
+.main__other__banner__arrow__background {
+   background: #de5d00;
+   right: 0;
+   width: 25px;
+   height: 25px;
+   border-radius: 50px;
    display: flex;
    align-items: center;
    justify-content: center;
 }
+.main__other__banner__arrow {
+   content: url(../img/main__arrow.svg);
+   width: 16px;
+   height: 16px;
+   color: #fff;
+}
+
+.main__best__teams__container {
+   max-width: 1170px;
+   margin: 0 auto;
+   padding-left: 100px;
+   font-family: 'Montserrat';
+}
+.main__best__teams {
+   margin-top: 23px;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.main__best__teams__cards {
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.main__best__teams__card__image {
+   position: relative;
+}
+
+.main__best__teams__card {
+   
+}
+
+.main__best__teams__card__frame {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   background: #de5d00;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 34px;
+   height: 34px;
+   border-radius: 10px 0px 20px;
+}
+
+.main__best__team__description__row {
+   display: flex;
+   justify-content: space-between;
+}
+
+.main__best__teams__card__heading {
+   margin-top: 3px;
+   color: #fff;
+   font-size: 12px;
+}
+
+.main__best__teams__card__subheading__container {
+   max-width: 141px;
+ }
+.main__best__teams__card__subheading__row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.main__best__teams__card__subheading {
+   margin-top: 10px;
+   font-size: 12px;
+   color: rgba(255, 255, 255, 0.5); 
+}
+
+.main__best__teams__card__subheading__nubmber {
+   font-size: 12px;
+   display: flex;
+   padding-right: 2px;
+   color: rgba(255, 255, 255, 0.5)
+}
+
+/* sign in / sign up pages */
+
+.sign__in__wrapper {
+  background: #1e1e1e url(../img/sign__in__bg.png) no-repeat;
+  background-position: 220px 20px;
+  max-height: 890px;
+  padding-bottom: 136px;
+  width: 100%;
+}
+.sign__in__container {
+  max-width: 1162px;
+  margin: 0 auto;
+  padding-top: 60px;
+  font-family: "Montserrat";
+}
+
+.sign__in__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign__in__item {
+  text-decoration: none;
+  color: #fff;
+}
+
+a.sign__in__item:focus {
+  border-bottom: 2px solid #9fafff;
+}
+
+a.last:focus {
+  border-bottom: 2px solid #9fafff;
+}
+
+.sign__in__form__container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.sign__in__form__row {
+  display: flex;
+  justify-content: end;
+}
+
+.sign__in__form__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign__in__form__heading {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 59px;
+  color: #fff;
+}
+
+.sign__in__form__subheading {
+  margin-top: 61px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.sign__in__here a {
+  color: #4461f2;
+  font-weight: 600;
+}
+
+.sign__in__forms {
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+}
+
+input.form1 {
+  width: 370px;
+  height: 47px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 7.6px;
+  padding: 0 30px;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+input.form2,
+input.form2__sign__up,
+input.form3,
+input.form4 {
+  margin-top: 15px;
+  width: 370px;
+  height: 47px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 7.6px;
+  padding: 0 30px;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+input:focus {
+  outline: none;
+}
+
+input.form1::placeholder,
+input.form2__sign__up::placeholder,
+.form3::placeholder,
+input.form4::placeholder {
+  background: url(../img/X\ Icon.svg) no-repeat;
+  background-position: 292px;
+  color: rgba(255, 255, 255, 0.25);
+}
+input.form2::placeholder {
+  background: url(../img/eye.svg) no-repeat;
+  background-position: 290px;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.sign__in__remembers {
+  margin-top: 11px;
+  display: flex;
+  justify-content: end;
+}
+.sign__in__remembers a {
+  color: #c7c7c7;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.sign__in__form__btn {
+  margin-top: 23px;
+  color: #fff;
+  width: 370px;
+  height: 50px;
+  background: #de5d00;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .sign__up__wrapper {
-   background: #1e1e1e url(../img/sign__up__bg.png) no-repeat;
-   background-position: 220px 20px;
-   max-height: 890px;;
-   width: 100%;
-   padding-bottom: 136px;
+  background: #1e1e1e url(../img/sign__up__bg.png) no-repeat;
+  background-position: 220px 20px;
+  max-height: 890px;
+  width: 100%;
+  padding-bottom: 136px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 767px) {
-   .header__container {
-      padding: 30px 15px;
-   }
-   .header__heading {
-      font-size: 35px;
-   }
-   .sign__in__wrapper {
-      height: 850px;
-      padding-bottom: 0;
-   }
-   .sign__in__container {
-      padding: 30px 11px;
-   }
-   .sign__in__form__row {
-      flex-direction: column;
-   }
+  .header__container {
+    padding: 30px 15px;
+  }
+  .header__heading {
+    font-size: 35px;
+    text-align: center;
+  }
+  .header__subheading {
+    text-align: center;
+  }
+  .header__btn {
+    margin-top: 141px;
+  }
+  .header__btn a {
+    margin: 0 auto;
+  }
+  .sign__in__wrapper {
+    height: 850px;
+    padding-bottom: 0;
+  }
+  .sign__in__container {
+    padding: 30px 11px;
+  }
+  .sign__in__form__heading {
+    text-align: center;
+  }
+  .sign__in__form__subheading {
+    text-align: center;
+  }
+  .sign__in__form__row {
+    flex-direction: column;
+  }
+
+  .main__container {
+    padding: 30px 11px;
+  }
+
+  .main__form {
+    width: 80%;
+  }
+  .main__form::placeholder {
+    padding-left: 0;
+  }
+  .main__first__banner {
+    width: 100%;
+    height: auto;
+  }
 }
-   
