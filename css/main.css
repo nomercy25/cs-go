@@ -403,6 +403,10 @@ input.main__form {
     margin: 0 auto;
   }
 
+.main__other__banner {
+  width: 100%;
+}
+
   .main__other__banner__upheading {
     text-align: center;
     margin-top: 50px;
@@ -436,6 +440,10 @@ input.main__form {
   .main__social__wrapper {
     width: 100%;
     border-radius: 0px;
+  }
+
+  .main__social__container {
+    padding: 0 15px;
   }
 }
 
